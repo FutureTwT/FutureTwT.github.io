@@ -60,7 +60,7 @@ layout: default
             To appear in <b><i>{{page.venue}}</i></b> {{page.year}}.
           {% else %}
             <i>Work in progress.</i>
-          {% endif %}
+          {% endif %}<br>
 
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
