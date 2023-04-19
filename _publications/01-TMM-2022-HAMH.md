@@ -1,7 +1,7 @@
 ---
 title: "Teacher-Student Learning: Efficient Hierarchical Message Aggregation Hashing for Cross-Modal Retrieval"
 collection: publications
-permalink: /publication/HMAH
+permalink: publications/HMAH
 excerpt: 'Teacher-Student Learning: Efficient Hierarchical Message Aggregation Hashing for Cross-Modal Retrieval'
 venue: 'IEEE TMM'
 year: 2022
