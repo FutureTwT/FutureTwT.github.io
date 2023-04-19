@@ -36,12 +36,20 @@
 
     {% assign authors = post.authorlist | split: ", " %}
     {% for a in authors %}
-      {% if a=='Wentao Tan' or a=='Wentao Tan*' %}
-        <b>{{a}}</b>,
+      {% if a==authors.last %}
+          {% if a=='Wentao Tan' %}
+            <b>{{a}}</b>.
+          {% else %}
+            {{a}}.
+          {% endif %}
       {% else %}
-        {{a}},
+          {% if a=='Wentao Tan' or a=='Wentao Tan*' %}
+            <b>{{a}}</b>,
+          {% else %}
+            {{a}},
+          {% endif %}
       {% endif %}
-    {% endfor %}.<br>
+    {% endfor %}<br>
     
     {% if post.status == 'pub' %}
       Accepted by <b><i>{{post.venue}}</i></b> {{post.year}}.
