@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "Tan Wentao / 谭文韬"
+title                    : "Welcome to my homepage!"
 title_separator          : "-"
 name                     : &name "Tan Wentao"
 description              : &description "Master Student at SDNU"
