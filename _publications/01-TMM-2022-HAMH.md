@@ -6,8 +6,8 @@ excerpt: 'Teacher-Student Learning: Efficient Hierarchical Message Aggregation H
 date: 2009-10-01
 venue: 'IEEE TMM'
 year: 2022
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-codeurl: 'http://academicpages.github.io/files/paper1.pdf'
+paperurl: 'https://ieeexplore.ieee.org/document/9782694'
+codeurl: 'https://github.com/FutureTwT/HMAH'
 authorlist: 'Wentao Tan, Lei Zhu, Jingjing Li, Huaxiang Zhang, Junwei Han'
 citation: 'Wentao Tan, Lei Zhu, Jingjing Li, Huaxiang Zhang, Junwei Han. Teacher-Student Learning: Efficient Hierarchical Message Aggregation Hashing for Cross-Modal Retrieval. IEEE TMM, 2022, Accepted.'
 status: 'pub'
