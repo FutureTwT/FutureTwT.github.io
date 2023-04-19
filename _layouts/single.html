@@ -35,20 +35,27 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.year | default: "2020" | date: "%Y" }} </p>
+        {% elif page.collection == 'publications' %}
+          {% assign authors = page.authorlist | split: ", " %}
+          {% for a in authors %}
+            {% if a=='Wentao Tan' or a=='Wentao Tan*' %}
+              <b>{{a}}</b>,
+            {% else %}
+              {{a}},
+            {% endif %}
+          {% endfor %}<br>
+          {% if post.status == 'pub' %}
+            Accepted by <b><i>{{post.venue}}</i></b> {{post.year}}.
+          {% elsif post.status == 'acc' %}
+            To appear in <b><i>{{post.venue}}</i></b> {{post.year}}.
+          {% else %}
+            <i>Work in progress.</i>
+          {% endif %}
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-             
-        {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
-        {% endif %}
-    
         </header>
       {% endunless %}
 
