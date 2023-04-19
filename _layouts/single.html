@@ -37,7 +37,7 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.year | default: "2020" | date: "%Y" }} </p>
         {% elsif page.collection == 'publications' %}
-          {% assign authors = post.authorlist | split: ", " %}
+          {% assign authors = page.authorlist | split: ", " %}
           {% for a in authors %}
             {% if a==authors.last %}
                 {% if a=='Wentao Tan' %}
@@ -53,7 +53,7 @@ layout: default
                 {% endif %}
             {% endif %}
           {% endfor %}<br>
-          
+
           {% if page.status == 'pub' %}
             Accepted by <b><i>{{page.venue}}</i></b> {{page.year}}.
           {% elsif page.status == 'acc' %}
