@@ -11,7 +11,11 @@ redirect_from:
 
 About me
 ======
+I expect to obtain my M.S. degree in July 2023, under the supervision of Prof. Lei Zhu at Big Media Computing Laboratory, School of Information Science and Engineering, Shandong Normal University (SDNU). 
 
+I received my B.S. degree in June 2019 from Shandong Normal University.
+
+My research interests are multi-/cross- modal retrieval, hashing learning, incremental learning, and universal domain adaptation.
 
 Publications
 ======
@@ -22,6 +26,9 @@ Publications
 Awards
 ======
 <ul>
+  <li><b>Outstanding graduates of Shandong</b>, 2023</li>
+  <li><b>Headmaster's scholarship for Postgraduates</b>, Shandong Normal University (10 quota), 2022</li>
+  <li><b>National scholarship for Postgraduates (China)</b>, 2022</li>
   <li><b>1st Prize</b>, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM, Shandong Division), 2018</li>
   <li><b>2nd Prize</b>, The 5th Shandong College Students' Science and Technology Innovation Contest, 2018</li>
   <li><b>Silver Medal</b>, The 4th China International College Students' ``Internet+" Innovation and Entrepreneurship Competition (Shandong Division), 2018</li>
@@ -35,13 +42,13 @@ Industrial Experience & Projects
 * <b>Intelligent Auxiliary Review System</b>
   * Text preprocessing and plagiarism detection of project proposals
   * May. 2021 -- Dec. 2021
-  * Supervisor: Professor Lei Zhu
+  * Supervisor: Prof. Lei Zhu
   * Shandong Normal University
 
 * <b>Project Acceptance System</b>
   * Invoice detection and recognition of project acceptance materials
   * May. 2021 -- Dec. 2021
-  * Supervisor: Professor Lei Zhu
+  * Supervisor: Prof. Lei Zhu
   * Shandong Normal University
 
 * <b>Ruiming Technology Co., Ltd.</b>
