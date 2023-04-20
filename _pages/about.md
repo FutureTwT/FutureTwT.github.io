@@ -10,19 +10,17 @@ redirect_from:
 ---
 
 About me
-------
+======
 
 
 Publications
-------
-
+======
 <ul>{% for post in site.publications reversed %}
 {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
 Awards
-------
-
+======
 <ul>
   <li><b>1st Prize</b>, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM, Shandong Division), 2018</li>
   <li><b>2nd Prize</b>, The 5th Shandong College Students' Science and Technology Innovation Contest, 2018</li>
@@ -32,13 +30,33 @@ Awards
   <li><b>Bronze Medal</b>, Shandong ACM Collegiate Programming Contest, 2017</li>
 </ul>
 
-
 Industrial Experience & Projects
-------
+======
+* <b>Intelligent Auxiliary Review System</b>
+  * Text preprocessing and plagiarism detection of project proposals
+  * May. 2021 -- Dec. 2021
+  * Supervisor: Professor Lei Zhu
+  * Shandong Normal University
 
+* <b>Project Acceptance System</b>
+  * Invoice detection and recognition of project acceptance materials
+  * May. 2021 -- Dec. 2021
+  * Supervisor: Professor Lei Zhu
+  * Shandong Normal University
+
+* <b>Ruiming Technology Co., Ltd.</b>
+	* Accelerate image preprocess operators (color space convert) with Neon assembly technology.
+	* Bus overload detection by image classification, person detection and edge detection.
+  * Sep. 2018 -- Dec. 2018
+  * <b><i>Intern</i></b>, Computer Vision Engineer
+
+* <b>Cambrian Intelligent Technology Ltd.</b>
+  * Optimize and deploy face detection (MTCNN) and pose estimation (OpenPose) models on RK3399 device to achieve real-time human-robot synchronous motion.
+  * Jan. 2018 -- Aug. 2018
+  * <b><i>Intern</i></b>, Computer Vision Engineer
 
 Contact me
-------
+======
 Email: tan.wt.lucky@gmail.com
 
 Wechat: super-twt
