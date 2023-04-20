@@ -23,6 +23,15 @@ Publications
 Awards
 ------
 
+<ul>
+  <li><b>1st Prize</b>, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM, Shandong Division), 2018</li>
+  <li><b>2nd Prize</b>, The 5th Shandong College Students' Science and Technology Innovation Contest, 2018</li>
+  <li><b>Silver Medal</b>, The 4th China International College Students' ``Internet+" Innovation and Entrepreneurship Competition (Shandong Division), 2018</li>
+  <li><b>3rd Prize</b>, The 15th Challenge Cup ``The Belt and Road Initiative" International Special Competition, 2017</li>
+  <li><b>Gold Medal</b>, The 3nd China International College Students' ``Internet+" Innovation and Entrepreneurship Competition (Shandong Division), 2017</li>
+  <li><b>Bronze Medal</b>, Shandong ACM Collegiate Programming Contest, 2017</li>
+</ul>
+
 
 Industrial Experience & Projects
 ------
