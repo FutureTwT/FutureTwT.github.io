@@ -15,7 +15,7 @@ I expect to obtain my M.S. degree in July 2023, under the supervision of Prof. L
 
 I received my B.S. degree in June 2019 from Shandong Normal University.
 
-My research interests are multi-/cross- modal retrieval, hashing learning, incremental learning, and universal domain adaptation.
+My research interests are <b><i>multi-/cross- modal retrieval, hashing learning, incremental learning, and universal domain adaptation</i></b>.
 
 Publications
 ======
