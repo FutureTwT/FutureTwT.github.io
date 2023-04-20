@@ -17,6 +17,8 @@ I received my B.S. degree in June 2019 from Shandong Normal University.
 
 My research interests are <b><i>multi-/cross- modal retrieval, hashing learning, incremental learning, and universal domain adaptation</i></b>.
 
+More information can refer to **[[CV]](https://futuretwt.github.io/cv/)**.
+
 Publications
 ======
 <ul>{% for post in site.publications reversed %}
