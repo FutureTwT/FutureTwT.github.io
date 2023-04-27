@@ -71,3 +71,5 @@ Email: tan.wt.lucky@gmail.com
 Wechat: super-twt
 
 Github: https://github.com/FutureTwT
+
+<a href="https://info.flagcounter.com/Ia01"><img src="https://s11.flagcounter.com/count2/Ia01/bg_72C6F7/txt_000000/border_000000/columns_5/maxflags_5/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
